@@ -14,24 +14,22 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 header h1 {
   font-weight: bold;
-  margin: 0;
   font-size: 36px;
   color: #fce138;
+  margin: 0;
+  display: inline;
 }
-
 header a {
   text-decoration: none;
   color: #fce138;
 }
 
 header nav {
+  float: right;
   margin: 7px 0;
 }
 
@@ -127,16 +125,6 @@ section {
   text-align: center;
 }
 
-.intro h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #fce138;
-  display: inline-block;
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
@@ -148,32 +136,6 @@ section {
 .steps {
   text-align: center;
   background: #fce138;
-}
-
-.steps h2 {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  border-color: #39a6b2;
-}
-
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
 }
 
 .steps div {
@@ -200,6 +162,23 @@ section {
   font-size: 38px;
 }
 
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
+
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+
 .trainers {
   text-align: center;
 }
@@ -223,14 +202,6 @@ section {
   width: 65%;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -245,6 +216,14 @@ section {
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
 }
 
 /* REACH OUT STYLES START */
